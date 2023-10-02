@@ -140,7 +140,8 @@ botonComprar.addEventListener("click", comprarCarrito);
 function comprarCarrito() {
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-    window.location.href='https://mpago.la/1R7jAJU';
+    //window.location.href='https://mpago.la/1R7jAJU';
+    window.location.href='https://link.mercadopago.com.ar/fabripago';
     
     contenedorCarritoVacio.classList.add("disabled");
     contenedorCarritoProductos.classList.add("disabled");
