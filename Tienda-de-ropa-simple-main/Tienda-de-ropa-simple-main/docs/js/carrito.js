@@ -140,7 +140,7 @@ botonComprar.addEventListener("click", comprarCarrito);
 function comprarCarrito() {
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
-    window.location.href='http://link.mercadopago.com.ar/colorium';
+    window.location.href='https://mpago.la/1R7jAJU';
     
     contenedorCarritoVacio.classList.add("disabled");
     contenedorCarritoProductos.classList.add("disabled");
